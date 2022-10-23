@@ -1045,7 +1045,7 @@ library EnumerableSet {
     }
 }
 // Biswap token with Governance.
-contract ArtskyToken is BEP20('ARTS', 'ARTS') {
+contract ArtskyToken is BEP20('ARTSKY', 'ARTS') {
     using EnumerableSet for EnumerableSet.AddressSet;
     EnumerableSet.AddressSet private _minters;
 	 
